@@ -1,11 +1,8 @@
 public class Cliente {
-
-	/**
-	 * 
-	 * @param tipo
-	 */
+	//Atributos de cliente
 	public void SolicitdarNotificacion(Notificacion tipo) {
-		// TODO - implement Class.SolicitdarNotificacion
+		tipo.Notificar("Mensaje enviado ");
+
 		throw new UnsupportedOperationException();
 	}
 

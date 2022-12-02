@@ -1,14 +1,8 @@
-public class NotificacionCorreo {
-
+public class NotificacionCorreo implements Notificacion{
 	private String DireccionCorreo;
 
-	/**
-	 * 
-	 * @param mensaje
-	 */
 	public void Notificar(String mensaje) {
 		// TODO - implement NotificacionCorreo.Notificar
-		throw new UnsupportedOperationException();
 	}
 
 }

@@ -1,14 +1,7 @@
-public abstract class NotificacionDecorador {
-
+public abstract class NotificacionDecorador implements Notificacion{
 	private String NroCelular;
-
-	/**
-	 * 
-	 * @param mensaje
-	 */
 	public void Notificar(String mensaje) {
 		// TODO - implement NotificacionDecorador.Notificar
 		throw new UnsupportedOperationException();
 	}
-
 }
